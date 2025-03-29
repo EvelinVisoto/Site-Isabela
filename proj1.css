@@ -1,0 +1,128 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+ /*Barra de tarefas*/ 
+.navbar {
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+  
+.nav-list {
+    width: 50%;
+    display: flex;
+    float: center;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+  
+.nav-list li a:hover {
+    color: rgb(255, 255, 255);
+}
+  
+  
+.background {
+    background: rgba(255, 100, 208, 0.705);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*textos capa*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: rgba(253, 125, 200, 0.301);
+  min-width: 50px;
+  left: 430px;
+  border-radius: 4.5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 4.5px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*Rodape*/
+footer{
+    background: rgba(255, 100, 208, 0.705) ;
+    padding-bottom: 50px;
+    padding: 25px;
+    position: relative;
+}
+
+.footer a{
+      color: black;
+}
+
+/*professoara*/
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(255, 100, 208, 0.705);
+    border: none;
+    color: #ffddfc;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 380px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: 1px solid rgba(226, 89, 185, 0.712);
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*Material, atividades e trabalho*/
